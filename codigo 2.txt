@@ -1,0 +1,47 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+    //Declaração de variaveis
+    float nota1;
+    float nota2;
+    float mediaanual;
+    float mediaexame;
+
+    //entrada
+    printf("Digite a nota 1 : ");
+    scanf("%f", &nota1);
+    printf("Digite a nota 2 : ");
+    scanf("%f", &nota2);
+
+
+    //Processamento
+    mediaanual = (nota1 + nota2) / 2;
+    mediaexame = (mediaexame + mediaanual  ) / 2;
+
+    //criticar para saber se o aluno esta aprovado ou retirado
+
+
+    //saida
+    if (mediaanual >=5)
+    {
+        printf("PARABENS, APROVADO !!");
+    }
+    else
+    {
+        printf("Reprovado, fazer o exame ");
+        printf("Digite a nota exame : ");
+        scanf("%f", &mediaexame);
+
+        if (mediaexame >= 5){
+            printf("Aprovado careca");
+        }
+        else{
+            printf("reprovado");
+        }
+    }
+
+    return 0;
+
+}
