@@ -35,10 +35,10 @@ int main(){
         scanf("%f", &mediaexame);
 
         if (mediaexame >= 5){
-            printf("Aprovado careca");
+            printf("APROVADO!!!");
         }
         else{
-            printf("reprovado");
+            printf("REPROVADO!!!");
         }
     }
 
